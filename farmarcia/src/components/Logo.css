@@ -1,0 +1,16 @@
+.logo{
+    top: 0;
+    left: 0;
+    /* position: fixed; */
+    height: 65px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.1);
+}

@@ -1,0 +1,30 @@
+
+
+.nav{
+  background-color: var(--cor-1);
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  /* position: fixed; */
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  /* border: solid; */
+  /* height: 90px; */
+}
+
+:root{
+  --cor-1: #e23e57;
+  --cor-2: #ffffff;
+  --cor-3: #e96a7e;
+  --cor-4: #ce1f3a;
+  --cor-5: #e6e6e6;
+  --cor-6: #ef97a4;
+}
+
+
+body{
+  background-color: var(--cor-3);
+}

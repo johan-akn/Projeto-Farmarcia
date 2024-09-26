@@ -1,0 +1,38 @@
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+  }
+
+
+
+
+button:hover{
+    cursor: pointer;
+
+  }
+  
+  button{
+    /* color: whitesmoke; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+button:active{
+    transition: 0.05s;
+    transform: scale(1.05);
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
