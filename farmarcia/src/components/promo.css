@@ -1,0 +1,17 @@
+.icone{
+    color: aliceblue;
+    font-size: 36px;
+}
+
+.promo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imgPromo{
+    margin: 30px;
+}
+
+

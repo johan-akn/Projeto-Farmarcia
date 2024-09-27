@@ -15,20 +15,31 @@ button:hover{
 
   }
   
-  button{
-    /* color: whitesmoke; */
-    font-family: Arial, Helvetica, sans-serif;
+  .botao-nav{
+    font-family: 'Roboto', sans-serif; /* Substitua pela fonte que preferir */
+    /* font-size: 12px; */
+    font-weight: 550;
+    /* text-transform: uppercase; */
+
     font-size: medium;
     height: 30px;
-    width: 70px;
+    width: 80px;
     border: none;
-    border-radius: 8px;
-    padding: 5px;
+    border-radius: 10px;
+    color: var(--cor-1);
+    /* border-width: 2px; */
+    /* background-color: var(--cor-3); */
+
+
+ 
   }
 
-button:active{
+
+  
+
+.botao-nav:active{
     transition: 0.05s;
-    transform: scale(1.05);
+    transform: scale(1.02);
 } 
 
 *{
