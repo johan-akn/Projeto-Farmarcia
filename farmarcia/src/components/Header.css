@@ -17,18 +17,19 @@ button:hover{
   
   .botao-nav{
     font-family: 'Roboto', sans-serif; /* Substitua pela fonte que preferir */
-    /* font-size: 12px; */
     font-weight: 550;
+    /* font-size: 12px; */
     /* text-transform: uppercase; */
 
     font-size: medium;
-    height: 30px;
-    width: 80px;
+    padding: 6px;
     border: none;
     border-radius: 10px;
     color: var(--cor-1);
     /* border-width: 2px; */
     /* background-color: var(--cor-3); */
+    /* height: 30px;
+    width: 80px; */
 
 
  

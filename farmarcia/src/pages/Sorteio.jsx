@@ -4,6 +4,7 @@ import PromoCamiseta from '../components/PromoCamiseta';
 import PromoCartao from '../components/PromoCartao';
 import PromoPlaca from '../components/PromoPlaca';
 import './Sorteio.css'
+import PromoNada from '../components/PromoNada';
 
 function Sorteio() {
     const [resultado, setResultado] = useState()
@@ -14,7 +15,7 @@ function Sorteio() {
         randomNum = Math.floor(Math.random() * (10 - 1 + 1) + 1);
 
         if(randomNum == 1){
-            setResultado('Você não ganhou nada :(')
+            setResultado(<PromoNada />)
         }
         else if(randomNum >=2 && randomNum <= 4){
             setResultado(<PromoCartao />)
