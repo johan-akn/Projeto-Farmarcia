@@ -61,7 +61,7 @@ function Senhas() {
         </div>
        <button onClick={ChamarSenha} className='botao-chamar'>Chamar senha</button>
 
-       <h3>Senha chamada:</h3>
+       <h3 className='SenhaChamada'>Senha chamada:</h3>
        <p>{senhaChamada || 'Nenhuma senha chamada'}</p>
     </div>
   )

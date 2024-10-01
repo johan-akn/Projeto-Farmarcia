@@ -31,7 +31,7 @@ function Sorteio() {
   return (
     <div className='sorteio-container'>
         <h1>Promoção de Inauguração</h1>
-        <h3>Pressione o botão e descubra se foi sorteado com um dos nossos incríveis produtos!</h3>
+        <h3>Pressione o botão e descubra se foi sorteado com um de nossos incríveis produtos!</h3>
         <button className='botao-nav' onClick={BotaoSortear}>Sortear</button>
         {resultado}
     </div>

@@ -15,25 +15,19 @@ button:hover{
 
   }
   
-  .botao-nav{
-    font-family: 'Roboto', sans-serif; /* Substitua pela fonte que preferir */
+  .botao-nav {
+    font-family: 'Roboto', sans-serif;
     font-weight: 550;
-    /* font-size: 12px; */
-    /* text-transform: uppercase; */
-
-    font-size: medium;
-    padding: 6px;
+    font-size: 17px;
+    padding: 8px 16px; /* Ajuste o padding para um visual mais próximo */
     border: none;
-    border-radius: 10px;
-    color: var(--cor-1);
-    /* border-width: 2px; */
-    /* background-color: var(--cor-3); */
-    /* height: 30px;
-    width: 80px; */
-
-
- 
+    border-radius: 20px; /* Curvatura maior para o efeito de pílula */
+    color: var(--cor-4); /* Texto branco */
+    background-color: var(--cor-5); /* Cinza escuro para o fundo */
+    display: flex; /* Para alinhar o ícone e o texto */
+    align-items: center; /* Centralizar verticalmente */
   }
+  
 
 
   

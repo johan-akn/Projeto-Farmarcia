@@ -6,7 +6,7 @@ function Home() {
     <div className='texto-container'>
       <img className='logo-home' src="/images/logo-grande.png" alt="" />
 
-      <h2>Bem vindo à Farmárcia!</h2>
+      <h2 className='h2-home'>Bem vindo à Farmárcia!</h2>
       <p className='texto-home'>
         Estamos animados em apresentar a nova fase da sua farmácia de confiança! Anteriormente chamada Farmário, a Farmárcia agora oferece um ambiente moderno e acolhedor, com uma variedade ainda maior de medicamentos e produtos de beleza.
         Nosso compromisso é com a sua saúde, oferecendo atendimento personalizado e a orientação de profissionais qualificados. 
